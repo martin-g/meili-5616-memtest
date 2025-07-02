@@ -2,7 +2,11 @@ Test with:
 
 1. Locally (without container):
 ```
-cargo run
+cargo run --release
+   Compiling meminfo v0.1.0 (/home/martin/git/rust/meminfo)
+    Finished `release` profile [optimized] target(s) in 0.15s
+     Running `target/release/meminfo`
+Max memory: Some(65854062592)
 ```
 
 2. In Docker container:
